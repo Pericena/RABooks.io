@@ -36,7 +36,7 @@ i{
   top: 100px;
   left: 100px;
   opacity: 0.9;
-  color: #ffffff;
+  color: #272626;
   
 }
 .img-camara{
@@ -67,7 +67,7 @@ i{
   border-radius: 20px;
   position: relative;
   text-align: center;
-  box-shadow: -1px 15px 30px -12px black;
+  box-shadow: -1px 15px 30px -12px rgb(41, 40, 40);
   z-index: 9999;
 }
 
