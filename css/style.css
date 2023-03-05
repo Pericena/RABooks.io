@@ -15,7 +15,6 @@
 
 body{
   font-family: 'helvetica neue', 'helvetica', 'arial', 'sans-serif';
-  font-size: 16px;
   background: #00d2ff;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -261,6 +260,7 @@ h3{
   text-align: center;
   font-size: x-large;
   size: 50px;
+  color: #fff;
 }
 
 .container-menu{
@@ -425,8 +425,7 @@ nav {
     display: flex;
     flex-direction: column;
     place-content: center;
-    margin-top: 2rem;
-   
+    margin-top: 0px;
     gap: 15px;
     
 
@@ -434,12 +433,13 @@ nav {
 .card {
     width: 250px;
     height: 250px;
-    background: #FFBD33;
+    background: #ffffff;
     border-radius: 20px;
-    box-shadow: 1px 2px 3px 2px rgba(230, 230, 230, 0.836);
+    box-shadow: 1px 2px 3px 2px rgba(18, 144, 247, 0.836);
     text-align: center;
-    color: #ffffff;
+    color: #303030;
     font-family: inherit;
+    font-size: 12px;
     z-index: 1;
     
   }
@@ -449,35 +449,42 @@ nav {
     margin: 60px auto 10px auto;
     width: 75px;
     height: 75px;
-    border: 1px solid #f0f0f0;
+    border: 2px solid hsl(236, 78%, 73%);
     border-radius: 50%;
     font-size: 11px;
     justify-content: center;
     align-items: center;
     transition: all 0.5s;
     z-index: 99;
-    background-color: #54a4f3;
+    background: rgb(85, 83, 83);
   }
   
   p {
     opacity: 0;
     transition: all 0.5s;
+    color: #fff;
+    font-size: 20px;
+    
   }
   
   .heading {
     padding: 10px;
     font-weight: 500;
     font-size: 18px;
+    
   }
   
   svg {
     padding: 0 5px;
     cursor: pointer;
+    background: rgb(85, 83, 83);
+    
   }
   
   .card:hover .img {
     transform: scale(1.1);
-    border: 1px solid #f0f0f0;
+    border: 1px solid hsl(236, 78%, 73%);
+  
   }
   
   .card:hover h1,
@@ -489,6 +496,7 @@ nav {
 width: 90px;
 height: 90px;
 border-radius: 50%;
+
 }
 
 
