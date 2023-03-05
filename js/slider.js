@@ -12,7 +12,7 @@ var img = [];
 
 
 document.addEventListener('DOMContentLoaded', function(){
-    const i = Math.floor(Math.random() * 50)
+    const i = Math.floor(Math.random() * 5)
     imagen.src = `img/pokemon/${i}.png`;
     crearGaleriaCarrousel()
     setInterval(carrouselFooter, 2500)
@@ -29,17 +29,18 @@ function cont(max){
 
 function moverAleatorio(){
     
-    if(cont(50) > 0 ){
+    if(cont(5) > 0 ){
         
-        let imgG = cont(50)
+        let imgG = cont(5)
         img = [...img, imgG]
        // console.log(img);
         imagen.src = `img/pokemon/${imgG}.png`;
+   
     }
 }
 function crearGaleriaCarrousel(){
 
-    for(let i = 1; i <= 50; i++){
+    for(let i = 1; i <= 5; i++){
         const imagen = document.createElement('img');
     
         imagen.classList.add('imagen-carousel');
@@ -57,7 +58,6 @@ function carrouselFooter(){
             
             imagenFoot.classList.add('logo-carrousel');
             imagenFoot.src = `img/logo/logo-${i}.png`
-            
             footer.appendChild(imagenFoot);
         
         
