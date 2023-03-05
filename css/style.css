@@ -25,10 +25,10 @@ body{
 .img-pokemon{
   background: transparent;
   width: auto;
-  height: 250px;
+  height: 280px;
   text-align: center; 
-  margin: 1px;
- 
+  margin: 20px;
+  
 }
 i{
   position: absolute;
