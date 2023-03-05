@@ -24,7 +24,6 @@ body{
 /*slider*/
 .img-pokemon{
   background: transparent;
-  opacity: 0.9;
   width: auto;
   height: 250px;
   text-align: center; 
@@ -80,7 +79,7 @@ i{
 }
 
 .clash-card__image--barbarian {
-  background: url("https://github.com/Pericena/RABooks.io/blob/main/img/fondo/1.jpg");
+  background: url("/img/fondo/1.jpg");
 }
 .clash-card__image--barbarian img {
   width: 400px;
@@ -110,7 +109,7 @@ i{
 }
 
 .clash-card__image--goblin {
-  background: url("/img/fondo/3.jpg");
+  background: url("/img/fondo/1.jpg");
 }
 .clash-card__image--goblin img {
   width: 370px;
@@ -120,7 +119,8 @@ i{
 }
 
 .clash-card__image--wizard {
-  background: url("/img/fondo/3.jpg");
+  background: url("/img/fondo/2.jpg");
+
 }
 .clash-card__image--wizard img {
   width: 345px;
