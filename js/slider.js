@@ -30,14 +30,23 @@ function cont(max){
 function moverAleatorio(){
     
     if(cont(5) > 0 ){
-        
+        limpiarHTML(imagen)
         let imgG = cont(5)
         img = [...img, imgG]
        // console.log(img);
+        const enlace = document.createElement('a')
+        enlace.href = `templete/${imgG}.html`
         imagen.src = `img/pokemon/${imgG}.png`;
+        
+        imagen.appendChild(enlace)
+        imagen.addEventListener('click', ()=> {
+            window.location.href = enlace;
+        })
+    }
+       
    
     }
-}
+
 function crearGaleriaCarrousel(){
 
     for(let i = 1; i <= 5; i++){
